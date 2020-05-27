@@ -1,0 +1,29 @@
+{
+  "name": "babel_webpack_starter",
+  "version": "1.0.0",
+  "description": "babel compiler with latest prelists and webpack module bundler to create static assets to be executed in browser independently without using node server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --output-public-path=/build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikhil1996B/babel_webpack_starter.git"
+  },
+  "author": "Nikhil Bhaskar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikhil1996B/babel_webpack_starter/issues"
+  },
+  "homepage": "https://github.com/Nikhil1996B/babel_webpack_starter#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
